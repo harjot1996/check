@@ -1,4 +1,5 @@
 keras>==2.4.0
 tensorflow>==2.4.0
 pillow==8.1.0
+gunicorn
 flask==1.1.1
