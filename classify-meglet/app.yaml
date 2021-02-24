@@ -1,5 +1,5 @@
 runtime: python38
-entrypoint: gunicorn -b :$PORT main:app
+entrypoint: gunicorn -b :8080 main:app
 
 # This sample incurs costs to run on the App Engine flexible environment. 
 # The settings below are to reduce costs during testing and are not appropriate
@@ -11,3 +11,5 @@ resources:
   cpu: 1
   memory_gb: 2
   disk_size_gb: 1
+
+  WAITTTTTTTTTT!!!!!!
