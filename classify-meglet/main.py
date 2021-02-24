@@ -50,5 +50,5 @@ def prediction_endpoint():
 
 
 if __name__ == "__main__":
-    app.run()#run flask app instance 
+    app.run(host='0.0.0.0', port=8080, debug=True)#run flask app instance 
 
